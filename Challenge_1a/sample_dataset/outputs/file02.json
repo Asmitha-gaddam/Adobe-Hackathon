@@ -1,0 +1,715 @@
+{
+  "title": "file02",
+  "outline": [
+    {
+      "text": "Overview",
+      "level": "H1",
+      "page": 1
+    },
+    {
+      "text": "Foundation Level Extensions",
+      "level": "H1",
+      "page": 1
+    },
+    {
+      "text": "Version 1.0",
+      "level": "H1",
+      "page": 1
+    },
+    {
+      "text": "International Software Testing Qualifications Board",
+      "level": "H1",
+      "page": 1
+    },
+    {
+      "text": "Copyright Notice",
+      "level": "H1",
+      "page": 1
+    },
+    {
+      "text": "This document may be copied in its entirety, or extracts made, if the source is acknowledged.",
+      "level": "H1",
+      "page": 1
+    },
+    {
+      "text": "Overview                                                                           International",
+      "level": "H1",
+      "page": 2
+    },
+    {
+      "text": "Software Testing",
+      "level": "H1",
+      "page": 2
+    },
+    {
+      "text": "Foundation Level Extension \u2013 Agile Tester                                       Qualifications Board",
+      "level": "H1",
+      "page": 2
+    },
+    {
+      "text": "Copyright \u00a9 International Software Testing Qualifications Board (hereinafter called ISTQB\u00ae).",
+      "level": "H1",
+      "page": 2
+    },
+    {
+      "text": "Version 2014                                            Page 2 of 12                    May 31, 2014",
+      "level": "H1",
+      "page": 2
+    },
+    {
+      "text": "Overview                                                                                 International",
+      "level": "H1",
+      "page": 3
+    },
+    {
+      "text": "Software Testing",
+      "level": "H1",
+      "page": 3
+    },
+    {
+      "text": "Foundation Level Extension \u2013 Agile Tester                                             Qualifications Board",
+      "level": "H1",
+      "page": 3
+    },
+    {
+      "text": "Revision History",
+      "level": "H1",
+      "page": 3
+    },
+    {
+      "text": "Version                   Date                           Remarks",
+      "level": "H1",
+      "page": 3
+    },
+    {
+      "text": "Version 2014                                            Page 3 of 12                           May 31, 2014",
+      "level": "H1",
+      "page": 3
+    },
+    {
+      "text": "Overview                                                                                                                   International",
+      "level": "H1",
+      "page": 4
+    },
+    {
+      "text": "Software Testing",
+      "level": "H1",
+      "page": 4
+    },
+    {
+      "text": "Foundation Level Extension \u2013 Agile Tester                                                                               Qualifications Board",
+      "level": "H1",
+      "page": 4
+    },
+    {
+      "text": "Table of Contents",
+      "level": "H1",
+      "page": 4
+    },
+    {
+      "text": "Revision History .......................................................................................................................................... 3",
+      "level": "H1",
+      "page": 4
+    },
+    {
+      "text": "Table of Contents ........................................................................................................................................ 4",
+      "level": "H1",
+      "page": 4
+    },
+    {
+      "text": "1.     Introduction to the Foundation Level Extensions ............................................................................ 6",
+      "level": "H1",
+      "page": 4
+    },
+    {
+      "text": "2.     Introduction to Foundation Level Agile Tester Extension ............................................................... 7",
+      "level": "H1",
+      "page": 4
+    },
+    {
+      "text": "3.     Overview of the Foundation Level Extension \u2013 Agile Tester Syllabus......................................... 10",
+      "level": "H1",
+      "page": 4
+    },
+    {
+      "text": "4.     References .......................................................................................................................................... 12",
+      "level": "H1",
+      "page": 4
+    },
+    {
+      "text": "Version 2014                                                      Page 4 of 12                                                        May 31, 2014",
+      "level": "H1",
+      "page": 4
+    },
+    {
+      "text": "Overview                                                                              International",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Software Testing",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Foundation Level Extension \u2013 Agile Tester                                          Qualifications Board",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Acknowledgements",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "This document was produced by a team from the International Software Testing Qualifications Board",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Foundation Level Working Group.",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "The Agile Extension team thanks the review team and the National Boards for their suggestions and input.",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "At the time the Foundation Level Agile Extension Syllabus was completed, the Agile Extension Working",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Group had the following membership: Rex Black (Chair), Bertrand Cornanguer (Vice Chair), Gerry",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Coleman (Learning Objectives Lead), Debra Friedenberg (Exam Lead), Alon Linetzki (Business Outcomes",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Authors: Rex Black, Anders Claesson, Gerry Coleman, Bertrand Cornanguer, Istvan Forgacs, Alon",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Linetzki, Tilo Linz, Leo van der Aalst, Marie Walsh, and Stephan Weber.",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Internal Reviewers: Mette Bruhn-Pedersen, Christopher Clements, Alessandro Collino, Debra",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Friedenberg, Kari Kakkonen, Beata Karpinska, Sammy Kolluru, Jennifer Leger, Thomas Mueller, Tuula",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "P\u00e4\u00e4kk\u00f6nen, Meile Posthuma, Gabor Puhalla, Lloyd Roden, Marko Rytk\u00f6nen, Monika Stoecklein-Olsen,",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Robert Treffny, Chris Van Bael, and Erik van Veenendaal.",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "The team thanks also the following persons, from the National Boards and the Agile expert community,",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Almog, Richard Berns, Stephen Bird, Monika B\u00f6gge, Afeng Chai, Josephine Crawford, Tibor Cs\u00f6ndes,",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Huba Demeter, Arnaud Foucal, Cyril Fumery, Kobi Halperin, Inga Hansen, Hanne Hinz, Jidong Hu, Phill",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Isles, Shirley Itah, Martin Klonk, Kjell Lauren, Igal Levi, Rik Marselis, Johan Meivert, Armin Metzger, Peter",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Morgan, Ninna Morin, Ingvar Nordstrom, Chris O\u2019Dea, Klaus Olsen, Ismo Paukamainen, Nathalie Phung,",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Helmut Pichler, Salvatore Reale, Stuart Reid, Hans Rombouts, Petri S\u00e4ilynoja, Soile Sainio, Lars-Erik",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Sandberg, Dakar Shalom, Jian Shen, Marco Sogliani, Lucjan Stapp, Yaron Tsubery, Sabine Uhde,",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Stephanie Ulrich, Tommi V\u00e4lim\u00e4ki, Jurian Van de Laar, Marnix Van den Ent, Ant\u00f3nio Vieira Melo, Wenye",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Xu, Ester Zabar, Wenqiang Zheng, Peter Zimmerer, Stevan Zivanovic, and Terry Zuo.",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "This document was formally approved for release by the General Assembly of the ISTQB\u00ae on May 31,",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Version 2014                                            Page 5 of 12                        May 31, 2014",
+      "level": "H1",
+      "page": 5
+    },
+    {
+      "text": "Overview                                                                               International",
+      "level": "H1",
+      "page": 6
+    },
+    {
+      "text": "Software Testing",
+      "level": "H1",
+      "page": 6
+    },
+    {
+      "text": "Foundation Level Extension \u2013 Agile Tester                                           Qualifications Board",
+      "level": "H1",
+      "page": 6
+    },
+    {
+      "text": "1. Introduction to the Foundation Level Extensions",
+      "level": "H1",
+      "page": 6
+    },
+    {
+      "text": "This overview document is intended for anyone with an interest in the ISTQB Foundation Level",
+      "level": "H1",
+      "page": 6
+    },
+    {
+      "text": "Extensions who wants a high-level introduction to the leading principles and an overview of the individual",
+      "level": "H1",
+      "page": 6
+    },
+    {
+      "text": "From time to time, ISTQB will update this document to reflect any additional extensions that shall be",
+      "level": "H1",
+      "page": 6
+    },
+    {
+      "text": "The ISTQB Foundation and Advanced Level syllabi have been defined and have been on the market for",
+      "level": "H1",
+      "page": 6
+    },
+    {
+      "text": "Expert Level. For this reason, the extension syllabi are established at the Foundation Level to expand the",
+      "level": "H1",
+      "page": 6
+    },
+    {
+      "text": "ISTQB program to incorporate new or updated knowledge. New extensions shall be discussed and",
+      "level": "H1",
+      "page": 6
+    },
+    {
+      "text": "The following Foundation Level Extension syllabus has been released:",
+      "level": "H1",
+      "page": 6
+    },
+    {
+      "text": "In this document, each Foundation Level Extension syllabus is summarized and the associated Business",
+      "level": "H1",
+      "page": 6
+    },
+    {
+      "text": "Outcomes are stated. The Business Outcomes communicate what can be expected from a person who",
+      "level": "H1",
+      "page": 6
+    },
+    {
+      "text": "Version 2014                                            Page 6 of 12                         May 31, 2014",
+      "level": "H1",
+      "page": 6
+    },
+    {
+      "text": "Overview                                                                              International",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "Software Testing",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "Foundation Level Extension \u2013 Agile Tester                                          Qualifications Board",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "2. Introduction to Foundation Level Agile Tester Extension",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "The certification for Foundation Level Extension \u2013 Agile Tester is designed for professionals who are",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "Agile methods in the near future, or are working within companies that plan to do so, The certification",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "The Foundation Level Extension \u2013 Agile Tester qualification is aimed at four main groups of professionals:",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "1. Professionals who have achieved in-depth testing experience in traditional methods and would",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "2. Junior professional testers who are just starting in the testing profession, have received the",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "Foundation Level certificate, and would like to know more about the tester\u2019s role in an Agile",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "3. Professionals who are relatively new to testing and are required to implement test approaches,",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "4. Professionals who are experienced in their role (including unit testing) and need more",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "These professionals include people who are in roles such as testers, test analysts, test engineers, test",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "This Foundation Level Extension \u2013 Agile Tester certification may also be appropriate for anyone who",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "Building on the Foundation Level, the Agile Tester Extension supports the definition of career paths for",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "People possessing an ISTQB Foundation Level Extension \u2013 Agile Tester certificate may use the Certified",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "Tester Foundation Level acronym CTFL-AT.",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "In general, the Foundation Level syllabus is examinable at a K1 level, i.e., the candidate will recognize,",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "In addition, all Foundation Level syllabus learning objectives are examinable at the same K- level in an",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "Version 2014                                            Page 7 of 12                       May 31, 2014",
+      "level": "H1",
+      "page": 7
+    },
+    {
+      "text": "Overview                                                                                International",
+      "level": "H1",
+      "page": 8
+    },
+    {
+      "text": "Software Testing",
+      "level": "H1",
+      "page": 8
+    },
+    {
+      "text": "Foundation Level Extension \u2013 Agile Tester                                            Qualifications Board",
+      "level": "H1",
+      "page": 8
+    },
+    {
+      "text": "That said, each extension level exam focuses on the learning objectives defined in that extension",
+      "level": "H1",
+      "page": 8
+    },
+    {
+      "text": "To be able to participate in a Foundation Level Extension \u2013 Agile Tester exam, candidates must have",
+      "level": "H1",
+      "page": 8
+    },
+    {
+      "text": "The Foundation Level Extension \u2013 Agile Tester syllabus has no shared or common elements with the",
+      "level": "H1",
+      "page": 8
+    },
+    {
+      "text": "Foundation Level syllabus.",
+      "level": "H1",
+      "page": 8
+    },
+    {
+      "text": "The syllabi must be taught in the following minimum number of days:",
+      "level": "H1",
+      "page": 8
+    },
+    {
+      "text": "Syllabus                   Days",
+      "level": "H1",
+      "page": 8
+    },
+    {
+      "text": "Baseline: Foundation        3",
+      "level": "H1",
+      "page": 8
+    },
+    {
+      "text": "Extension: Agile Tester     2",
+      "level": "H1",
+      "page": 8
+    },
+    {
+      "text": "The following figure shows the structure of the Agile Tester Extension and its relationship to the",
+      "level": "H1",
+      "page": 8
+    },
+    {
+      "text": "Foundation Level.",
+      "level": "H1",
+      "page": 8
+    },
+    {
+      "text": "Version 2014                                                  Page 8 of 12                   May 31, 2014",
+      "level": "H1",
+      "page": 8
+    },
+    {
+      "text": "Overview                                                                         International",
+      "level": "H1",
+      "page": 9
+    },
+    {
+      "text": "Software Testing",
+      "level": "H1",
+      "page": 9
+    },
+    {
+      "text": "Foundation Level Extension \u2013 Agile Tester                                     Qualifications Board",
+      "level": "H1",
+      "page": 9
+    },
+    {
+      "text": "The software industry changes rapidly. To deal with these changes and to provide the stakeholders with",
+      "level": "H1",
+      "page": 9
+    },
+    {
+      "text": "Version 2014                                            Page 9 of 12                  May 31, 2014",
+      "level": "H1",
+      "page": 9
+    },
+    {
+      "text": "Overview                                                                                       International",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "Software Testing",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "Foundation Level Extension \u2013 Agile Tester                                                   Qualifications Board",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "3. Overview of the Foundation Level Extension \u2013 Agile Tester",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "Syllabus",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "This section lists the Business Outcomes expected of a candidate who has achieved the Foundation Level",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "Extension \u2013 Agile Tester certification.",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "An Agile Tester can\u2026",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "AFM1          Collaborate in a cross-functional Agile team being familiar with principles and basic",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "AFM2          Adapt existing testing experience and knowledge to Agile values and principles.",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "AFM3          Support the Agile team in planning test-related activities.",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "AFM4          Apply relevant methods and techniques for testing in an Agile project.",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "AFM5          Assist the Agile team in test automation activities.",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "AFM6          Assist business stakeholders in defining understandable and testable user stories,",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "AFM7          Work and share information with other team members using effective communication",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "In general, a Certified Tester Foundation Level \u2013 Agile Tester is expected to have acquired the necessary",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "Chapter 1: Agile Software Development",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "Manifesto.",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "Version 2014                                            Page 10 of 12                               May 31, 2014",
+      "level": "H1",
+      "page": 10
+    },
+    {
+      "text": "Overview                                                                           International",
+      "level": "H1",
+      "page": 11
+    },
+    {
+      "text": "Software Testing",
+      "level": "H1",
+      "page": 11
+    },
+    {
+      "text": "Foundation Level Extension \u2013 Agile Tester                                       Qualifications Board",
+      "level": "H1",
+      "page": 11
+    },
+    {
+      "text": "Chapter 2: Fundamental Agile Testing Principles, Practices, and Processes",
+      "level": "H1",
+      "page": 11
+    },
+    {
+      "text": "Agile projects.",
+      "level": "H1",
+      "page": 11
+    },
+    {
+      "text": "Chapter 3: Agile Testing Methods, Techniques, and Tools",
+      "level": "H1",
+      "page": 11
+    },
+    {
+      "text": "Version 2014                                            Page 11 of 12                   May 31, 2014",
+      "level": "H1",
+      "page": 11
+    },
+    {
+      "text": "Overview                                                                                             International",
+      "level": "H1",
+      "page": 12
+    },
+    {
+      "text": "Software Testing",
+      "level": "H1",
+      "page": 12
+    },
+    {
+      "text": "Foundation Level Extension \u2013 Agile Tester                                                         Qualifications Board",
+      "level": "H1",
+      "page": 12
+    },
+    {
+      "text": "4. References",
+      "level": "H1",
+      "page": 12
+    },
+    {
+      "text": "The following registered trademarks and service marks are used in this document:",
+      "level": "H1",
+      "page": 12
+    },
+    {
+      "text": "ISTQB is a registered trademark of the International Software Testing Qualifications Board",
+      "level": "H1",
+      "page": 12
+    },
+    {
+      "text": "Identifier                                 Reference",
+      "level": "H1",
+      "page": 12
+    },
+    {
+      "text": "Version 2014                                               Page 12 of 12                                  May 31, 2014",
+      "level": "H1",
+      "page": 12
+    }
+  ]
+}
