@@ -90,4 +90,16 @@ Challenge_1b/
 
 ---
 
-**Note**: This README provides a brief overview of the Challenge 1b solution structure based on available sample data. 
+## 🐳 How to Run with Docker
+
+### Step 1: ✅ Build the Docker Image
+
+```bash
+docker build -t round1b-runner .
+
+docker run --rm -v ${PWD}:/app round1b-runner python scripts/main.py `
+  --input "Collection 1/challenge1b_input.json" `
+  --pdf_dir "Collection 1/PDFs" `
+  --output "Collection 1/challenge1b_output.json"
+
+
