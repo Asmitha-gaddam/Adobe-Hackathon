@@ -127,3 +127,33 @@ docker run --rm -v $(pwd)/sample_dataset/pdfs:/app/input:ro -v $(pwd)/sample_dat
 ---
 
 **Important**: This is a sample implementation. Participants should develop their own solutions that meet all the official challenge requirements and constraints. 
+
+
+---
+
+## 🚀 Features
+
+- 🔍 Extract headings using font size and boldness (rule-based)
+- 🧠 No ML model needed
+- 🐳 Fully Dockerized (no dependencies on host)
+- ⏱️ Fast: under 10 seconds for 50-page PDFs
+- ❌ Works **offline**, no internet access required
+
+---
+
+## 🔧 Prerequisites
+
+- Docker installed
+- Your PDFs placed in `sample_dataset/pdfs/`
+
+---
+
+## 🐳 Build the Docker Image
+
+```bash
+docker build -t heading-ml-predictor .
+
+docker run --rm \
+  -v "${PWD}/sample_dataset:/app/sample_dataset" \
+  heading-ml-predictor \
+  python predict_headings.py sample_dataset/pdfs/FILENAME.pdf
